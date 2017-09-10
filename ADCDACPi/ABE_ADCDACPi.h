@@ -53,7 +53,7 @@ double read_adc_voltage(int channel, int mode);
 * When in differential mode setting channel to 2 will make IN1 = IN- and IN2 = IN+
 * @returns 12 bit value between 0 and 4096
 */
-double read_adc_raw(int channel, int mode);
+int read_adc_raw(int channel, int mode);
 
 /**
 * Set the reference voltage for the adc
